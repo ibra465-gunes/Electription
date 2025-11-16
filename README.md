@@ -181,12 +181,11 @@ Uygulama `http://localhost:3000` adresinde çalışacaktır.
 ## 👥 Katkı Sağlayanlar
 
 - [İbrahim GÜNEŞ](https://github.com/ibra465-gunes)
-  [İshak DURAN](https://github.com/dr-isosan)
-  [Cuma TALJİBİNİ](https://github.com/Ctaljibini)
+- [İshak DURAN](https://github.com/dr-isosan)
+- [Cuma TALJİBİNİ](https://github.com/Ctaljibini)
 ---
 
 ## 📄 Lisans
 
 Bu proje [MIT lisansı](LICENSE) ile lisanslanmıştır.  
 Kodun yeniden kullanımı, değiştirilmesi ve dağıtımı serbesttir.
-```
