@@ -13,4 +13,4 @@
 /frontend/build/
 
 # Ortam dosyaları
-.env
+**/*.env
