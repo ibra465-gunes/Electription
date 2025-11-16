@@ -43,7 +43,12 @@
 Bir güvenlik açığı bulursanız, lütfen herkese açık issue açmak yerine doğrudan proje sahipleriyle iletişime geçin.
 
 ---
+<p align="right">
+  <a href="#güvenlik-rehberi">🇹🇷 Türkçe</a> | <strong>🇬🇧 English</strong>
+</p>
 
+# 🇬🇧 English Version
+---
 ## ⚠️ Critical Security Notes
 
 ### 1. Environment Variables
