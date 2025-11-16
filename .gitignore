@@ -13,4 +13,4 @@
 /frontend/build/
 
 # Ortam dosyaları
-/backend/edb.env
+backend/edb.env
