@@ -273,8 +273,14 @@ When opening an issue:
 - [ ] Commit messages are clear  
 - [ ] No merge conflicts  
 - [ ] `.gitignore` includes sensitive files
-```
+---
+## 🔐 Security Notes
 
+- Never commit `.env` or `backend/edb.env` files
+- Always change `JWT_SECRET` and admin password in production
+- Ensure `.gitignore` excludes sensitive files
+- See `SECURITY.md` for full security guidelines
+---
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).  
