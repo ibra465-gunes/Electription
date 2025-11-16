@@ -185,6 +185,95 @@ The app will be available at `http://localhost:3000`.
 - [İshak DURAN](https://github.com/dr-isosan)
 - [Cuma TALJİBİNİ](https://github.com/Ctaljibini)
 ---
+## 🤝 Contributing Guide
+
+This is a graduation project, but we still welcome your contributions!
+
+### 1. Fork and Clone
+```bash
+# Fork the repository on GitHub
+git clone https://github.com/YOUR_USERNAME/e-vote.git
+cd e-vote
+```
+
+### 2. Create a Branch
+```bash
+git checkout -b feature/new-feature
+# or
+git checkout -b fix/bug-fix
+```
+
+### 3. Make Your Changes
+- Follow the existing code style  
+- Add comments where necessary  
+- Test your changes
+
+### 4. Commit
+```bash
+git add .
+git commit -m "feat: added new feature"
+```
+
+#### Commit Message Format
+```
+<type>: <short description>
+
+[optional detailed explanation]
+```
+
+**Types:**
+- `feat`: New feature  
+- `fix`: Bug fix  
+- `docs`: Documentation  
+- `style`: Code formatting  
+- `refactor`: Code improvement  
+- `test`: Adding tests  
+- `chore`: General tasks
+
+### 5. Push and Create a Pull Request
+```bash
+git push origin feature/new-feature
+```
+Then open a Pull Request on GitHub.
+
+---
+
+## 📋 Coding Standards
+
+- **JavaScript**: Follow ESLint rules  
+- **React**: Use functional components  
+- **Solidity**: Follow OpenZeppelin standards  
+- **Comments**: Explain complex code blocks
+
+---
+
+## 🐛 Bug Reports
+
+When opening an issue:
+
+- Clearly describe the bug  
+- Provide steps to reproduce  
+- Explain expected vs actual behavior  
+- Attach screenshots if available
+
+---
+
+## 💡 Feature Suggestions
+
+- Describe the feature in detail  
+- Explain why it’s needed  
+- Provide usage scenarios
+
+---
+
+## ✅ Pull Request Checklist
+
+- [ ] Code runs and is tested  
+- [ ] New features are documented  
+- [ ] Commit messages are clear  
+- [ ] No merge conflicts  
+- [ ] `.gitignore` includes sensitive files
+```
 
 ## 📄 License
 
