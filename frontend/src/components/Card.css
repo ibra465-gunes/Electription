@@ -1,0 +1,81 @@
+.app-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e2e8f0;
+  position: relative;
+}
+
+.app-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.card-header {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.card-header-icon {
+  font-size: 1.25rem;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.card-actions {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+
+/* Card Variants */
+.default-card {
+  border-top: 4px solid #64748b;
+}
+
+.primary-card {
+  border-top: 4px solid var(--primary-color);
+}
+
+.success-card {
+  border-top: 4px solid #10b981;
+}
+
+.warning-card {
+  border-top: 4px solid #f59e0b;
+}
+
+.danger-card {
+  border-top: 4px solid #ef4444;
+}
+
+@media (max-width: 640px) {
+  .card-header {
+    padding: 1rem;
+  }
+  
+  .card-content {
+    padding: 1.25rem 1rem;
+  }
+  
+  .card-actions {
+    padding: 0.75rem 1rem;
+  }
+}

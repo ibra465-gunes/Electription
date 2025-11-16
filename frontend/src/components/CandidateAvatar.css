@@ -1,0 +1,76 @@
+/* Candidate Avatar Component Styles */
+.candidate-avatar {
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+  transition: transform 0.3s ease;
+  border: 2px solid #fff;
+}
+
+.candidate-avatar:hover {
+  transform: scale(1.05);
+}
+
+/* Size variants */
+.candidate-avatar.small {
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+}
+
+.candidate-avatar.medium {
+  width: 60px;
+  height: 60px;
+  font-size: 2.5rem;
+}
+
+.candidate-avatar.large {
+  width: 80px;
+  height: 80px;
+  font-size: 3rem;
+}
+
+/* Gradient variations for more variety */
+.candidate-avatar:nth-child(2n) {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.candidate-avatar:nth-child(3n) {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.candidate-avatar:nth-child(4n) {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+.candidate-avatar:nth-child(5n) {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+}
+
+.candidate-avatar:nth-child(6n) {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .candidate-avatar.small {
+    width: 35px;
+    height: 35px;
+    font-size: 1.3rem;
+  }
+
+  .candidate-avatar.medium {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+  }
+
+  .candidate-avatar.large {
+    width: 65px;
+    height: 65px;
+    font-size: 2.5rem;
+  }
+}

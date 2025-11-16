@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chainGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FBBF24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ballotGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8FAFC;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Main background -->
+  <rect width="512" height="512" rx="100" fill="url(#bgGradient)"/>
+
+  <!-- Blockchain hexagon pattern (subtle background) -->
+  <g opacity="0.08">
+    <polygon points="120,80 160,60 200,80 200,120 160,140 120,120" fill="white"/>
+    <polygon points="320,80 360,60 400,80 400,120 360,140 320,120" fill="white"/>
+    <polygon points="80,200 120,180 160,200 160,240 120,260 80,240" fill="white"/>
+    <polygon points="280,200 320,180 360,200 360,240 320,260 280,240" fill="white"/>
+    <polygon points="180,320 220,300 260,320 260,360 220,380 180,360" fill="white"/>
+    <polygon points="380,320 420,300 460,320 460,360 420,380 380,360" fill="white"/>
+  </g>
+
+  <!-- Central ballot box assembly -->
+  <g transform="translate(256,256)">
+    <!-- Main ballot box -->
+    <rect x="-90" y="-50" width="180" height="120" rx="15" fill="url(#ballotGradient)" stroke="#E2E8F0" stroke-width="2"/>
+
+    <!-- Ballot box top/lid -->
+    <rect x="-90" y="-50" width="180" height="25" rx="15" fill="#F1F5F9"/>
+    <rect x="-85" y="-45" width="170" height="15" rx="10" fill="#E2E8F0"/>
+
+    <!-- Ballot insertion slot -->
+    <rect x="-70" y="-65" width="140" height="12" rx="6" fill="#374151"/>
+    <rect x="-65" y="-63" width="130" height="8" rx="4" fill="#1F2937"/>
+
+    <!-- Voting ballot paper -->
+    <g transform="translate(0,-80)">
+      <rect x="-50" y="-15" width="100" height="30" rx="4" fill="white" stroke="#D1D5DB" stroke-width="2"/>
+      <!-- Vote checkmark -->
+      <path d="M-25,-8 L-12,5 L25,-25" stroke="#10B981" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <!-- Candidate options (lines) -->
+      <line x1="-40" y1="-5" x2="10" y2="-5" stroke="#9CA3AF" stroke-width="2"/>
+      <line x1="-40" y1="5" x2="15" y2="5" stroke="#9CA3AF" stroke-width="2"/>
+    </g>
+
+    <!-- Security lock on ballot box -->
+    <g transform="translate(60,0)">
+      <rect x="-8" y="0" width="16" height="18" rx="3" fill="#10B981"/>
+      <path d="M-5,-8 Q-5,-15 0,-15 Q5,-15 5,-8" stroke="#10B981" stroke-width="3" fill="none"/>
+      <circle cx="0" cy="9" r="2" fill="white"/>
+      <line x1="0" y1="9" x2="0" y2="14" stroke="white" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- Blockchain network visualization -->
+  <!-- Chain links connecting corners -->
+  <g>
+    <!-- Top-left chain link -->
+    <g transform="translate(150,150) rotate(-45)">
+      <rect x="-20" y="-10" width="40" height="20" rx="10" fill="none" stroke="url(#chainGradient)" stroke-width="6"/>
+      <rect x="-10" y="-20" width="20" height="40" rx="10" fill="none" stroke="url(#chainGradient)" stroke-width="6"/>
+    </g>
+
+    <!-- Top-right chain link -->
+    <g transform="translate(362,150) rotate(45)">
+      <rect x="-20" y="-10" width="40" height="20" rx="10" fill="none" stroke="url(#chainGradient)" stroke-width="6"/>
+      <rect x="-10" y="-20" width="20" height="40" rx="10" fill="none" stroke="url(#chainGradient)" stroke-width="6"/>
+    </g>
+
+    <!-- Bottom-left chain link -->
+    <g transform="translate(150,362) rotate(45)">
+      <rect x="-20" y="-10" width="40" height="20" rx="10" fill="none" stroke="url(#chainGradient)" stroke-width="6"/>
+      <rect x="-10" y="-20" width="20" height="40" rx="10" fill="none" stroke="url(#chainGradient)" stroke-width="6"/>
+    </g>
+
+    <!-- Bottom-right chain link -->
+    <g transform="translate(362,362) rotate(-45)">
+      <rect x="-20" y="-10" width="40" height="20" rx="10" fill="none" stroke="url(#chainGradient)" stroke-width="6"/>
+      <rect x="-10" y="-20" width="20" height="40" rx="10" fill="none" stroke="url(#chainGradient)" stroke-width="6"/>
+    </g>
+  </g>
+
+  <!-- Network nodes -->
+  <circle cx="120" cy="120" r="12" fill="#FBBF24" stroke="#F59E0B" stroke-width="3"/>
+  <circle cx="392" cy="120" r="12" fill="#FBBF24" stroke="#F59E0B" stroke-width="3"/>
+  <circle cx="120" cy="392" r="12" fill="#FBBF24" stroke="#F59E0B" stroke-width="3"/>
+  <circle cx="392" cy="392" r="12" fill="#FBBF24" stroke="#F59E0B" stroke-width="3"/>
+
+  <!-- Network connection lines -->
+  <line x1="132" y1="120" x2="180" y2="140" stroke="#FBBF24" stroke-width="3" opacity="0.7"/>
+  <line x1="380" y1="120" x2="332" y2="140" stroke="#FBBF24" stroke-width="3" opacity="0.7"/>
+  <line x1="132" y1="392" x2="180" y2="372" stroke="#FBBF24" stroke-width="3" opacity="0.7"/>
+  <line x1="380" y1="392" x2="332" y2="372" stroke="#FBBF24" stroke-width="3" opacity="0.7"/>
+
+  <!-- Central security indicator -->
+  <g transform="translate(256,140)">
+    <!-- Shield background -->
+    <path d="M0,-15 L12,-10 L12,10 L0,18 L-12,10 L-12,-10 Z" fill="#10B981" opacity="0.9"/>
+    <!-- Shield icon -->
+    <path d="M-6,0 L-2,4 L6,-8" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Encrypted data blocks (small rectangles around the design) -->
+  <g opacity="0.6">
+    <rect x="80" y="200" width="20" height="8" rx="2" fill="#FBBF24"/>
+    <rect x="412" y="200" width="20" height="8" rx="2" fill="#FBBF24"/>
+    <rect x="80" y="300" width="20" height="8" rx="2" fill="#FBBF24"/>
+    <rect x="412" y="300" width="20" height="8" rx="2" fill="#FBBF24"/>
+    <rect x="200" y="80" width="20" height="8" rx="2" fill="#FBBF24"/>
+    <rect x="292" y="80" width="20" height="8" rx="2" fill="#FBBF24"/>
+    <rect x="200" y="424" width="20" height="8" rx="2" fill="#FBBF24"/>
+    <rect x="292" y="424" width="20" height="8" rx="2" fill="#FBBF24"/>
+  </g>
+</svg>
