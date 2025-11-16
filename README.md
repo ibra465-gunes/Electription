@@ -272,8 +272,14 @@ Issue açarken:
 - [ ] Commit mesajları açıklayıcı  
 - [ ] Çakışma (conflict) yok  
 - [ ] `.gitignore` hassas dosyaları içeriyor
-```
+---
+## 🔐 Güvenlik Notları
 
+- `.env`, `backend/edb.env` gibi dosyaları **asla commit etmeyin**
+- `JWT_SECRET` ve admin şifresini **üretim ortamında mutlaka değiştirin**
+- `.gitignore` dosyasının hassas verileri dışarıda tuttuğundan emin olun
+- Detaylı güvenlik rehberi için `SECURITY.md` dosyasına bakabilirsiniz
+---
 ## 📄 Lisans
 
 Bu proje [MIT lisansı](LICENSE) ile lisanslanmıştır.  
