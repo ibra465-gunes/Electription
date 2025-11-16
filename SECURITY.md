@@ -1,8 +1,8 @@
 <p align="right">
-  <strong>🇹🇷 Türkçe</strong> | <a href="#-english-version">🇬🇧 English</a>
+  <strong>🇹🇷 Türkçe</strong> | <a href="#english-version">🇬🇧 English</a>
 </p>
 
-# 🇹🇷 Türkçe Versiyon
+# 🔐 Güvenlik Rehberi
 
 ## ⚠️ Önemli Güvenlik Notları
 
@@ -43,10 +43,6 @@
 Bir güvenlik açığı bulursanız, lütfen herkese açık issue açmak yerine doğrudan proje sahipleriyle iletişime geçin.
 
 ---
-<p align="right">
-  <a href="#-turkce-versiyon">🇹🇷 Türkçe</a> | <strong>🇬🇧 English</strong>
-</p>
-
 # 🇬🇧 English Version
 ---
 ## ⚠️ Critical Security Notes
