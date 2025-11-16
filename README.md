@@ -184,6 +184,95 @@ Uygulama `http://localhost:3000` adresinde çalışacaktır.
 - [İshak DURAN](https://github.com/dr-isosan)
 - [Cuma TALJİBİNİ](https://github.com/Ctaljibini)
 ---
+## 🤝 Katkıda Bulunma Rehberi
+
+Bu proje bir bitirme projesidir. Yine de katkılarınızı memnuniyetle karşılıyoruz!
+
+### 1. Fork ve Klonla
+```bash
+# Projeyi GitHub üzerinden fork edin
+git clone https://github.com/YOUR_USERNAME/e-vote.git
+cd e-vote
+```
+
+### 2. Branch Oluşturun
+```bash
+git checkout -b feature/yeni-ozellik
+# veya
+git checkout -b fix/hata-duzeltme
+```
+
+### 3. Değişikliklerinizi Yapın
+- Kodun mevcut stiline uygun yazın  
+- Gerekli yerlerde yorum satırları ekleyin  
+- Değişikliklerinizi test edin
+
+### 4. Commit
+```bash
+git add .
+git commit -m "feat: yeni özellik eklendi"
+```
+
+#### Commit Mesaj Formatı
+```
+<tip>: <kısa açıklama>
+
+[opsiyonel detaylı açıklama]
+```
+
+**Tipler:**
+- `feat`: Yeni özellik  
+- `fix`: Hata düzeltme  
+- `docs`: Dokümantasyon  
+- `style`: Kod formatı  
+- `refactor`: Kod iyileştirme  
+- `test`: Test ekleme  
+- `chore`: Genel işler
+
+### 5. Push ve Pull Request
+```bash
+git push origin feature/yeni-ozellik
+```
+GitHub üzerinden bir Pull Request (PR) oluşturun.
+
+---
+
+## 📋 Kodlama Standartları
+
+- **JavaScript**: ESLint kurallarına uyun  
+- **React**: Fonksiyonel bileşenler kullanın  
+- **Solidity**: OpenZeppelin standartlarını takip edin  
+- **Yorumlar**: Karmaşık kod bloklarını açıklayın
+
+---
+
+## 🐛 Hata Bildirimi
+
+Issue açarken:
+
+- Hatanın ne olduğunu açıkça belirtin  
+- Tekrar etme adımlarını yazın  
+- Beklenen ve gerçekleşen davranışı açıklayın  
+- Varsa ekran görüntüsü ekleyin
+
+---
+
+## 💡 Özellik Önerisi
+
+- Özelliği detaylı açıklayın  
+- Neden gerekli olduğunu belirtin  
+- Kullanım senaryosu paylaşın
+
+---
+
+## ✅ Pull Request Kontrol Listesi
+
+- [ ] Kod çalışıyor ve test edildi  
+- [ ] Yeni özellikler dokümante edildi  
+- [ ] Commit mesajları açıklayıcı  
+- [ ] Çakışma (conflict) yok  
+- [ ] `.gitignore` hassas dosyaları içeriyor
+```
 
 ## 📄 Lisans
 
