@@ -44,7 +44,7 @@ Bir güvenlik açığı bulursanız, lütfen herkese açık issue açmak yerine 
 
 ---
 <p align="right">
-  <a href="#Güvenlik Rehberi">🇹🇷 Türkçe</a> | <strong>🇬🇧 English</strong>
+  <a href="#guvenlik-rehberi">🇹🇷 Türkçe</a> | <strong>🇬🇧 English</strong>
 </p>
 
 # 🇬🇧 English Version
