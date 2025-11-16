@@ -1,0 +1,19 @@
+{
+  "name": "electryption",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "blockchain",
+    "frontend"
+  ],
+  "scripts": {
+    "start": "npm --workspace frontend run start",
+    "build": "npm --workspace frontend run build",
+    "test:frontend": "npm --workspace frontend run test",
+    "compile": "npm --workspace blockchain run compile",
+    "test:blockchain": "npm --workspace blockchain run test",
+    "deploy": "npm --workspace blockchain run deploy",
+    "dev:backend": "npm --workspace backend run dev"
+  }
+}

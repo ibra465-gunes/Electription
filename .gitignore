@@ -1,0 +1,16 @@
+# Root node_modules
+/node_modules/
+
+# Alt dizinlerdeki node_modules
+/frontend/node_modules/
+/backend/node_modules/
+
+# Hardhat çıktıları
+/blockchain/cache/
+/blockchain/artifacts/
+
+# Frontend build
+/frontend/build/
+
+# Ortam dosyaları
+.env
