@@ -1,5 +1,5 @@
 <p align="right">
-  <strong>🇹🇷 Türkçe</strong> | <a href="#english-version">🇬🇧 English</a>
+  <strong>🇹🇷 Türkçe</strong> | <a href="#-english-version">🇬🇧 English</a>
 </p>
 
 # 🔐 Güvenlik Rehberi
