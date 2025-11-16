@@ -1,6 +1,7 @@
 <p align="right">
   <strong>🇹🇷 Türkçe</strong> | <a href="#-english-version">🇬🇧 English</a>
 </p>
+
 # 🇹🇷 Türkçe Versiyon – Güvenlik Rehberi
 
 ## ⚠️ Önemli Güvenlik Notları
