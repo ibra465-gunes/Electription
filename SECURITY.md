@@ -2,7 +2,7 @@
   <strong>🇹🇷 Türkçe</strong> | <a href="#-english-version">🇬🇧 English</a>
 </p>
 
-# 🇹🇷 Türkçe Versiyon – Güvenlik Rehberi
+# 🇹🇷 Türkçe Versiyon
 
 ## ⚠️ Önemli Güvenlik Notları
 
@@ -44,7 +44,7 @@ Bir güvenlik açığı bulursanız, lütfen herkese açık issue açmak yerine 
 
 ---
 <p align="right">
-  <a href="#turkce-versiyon--guvenlik-rehberi">🇹🇷 Türkçe</a> | <strong>🇬🇧 English</strong>
+  <a href="#-turkce-versiyon">🇹🇷 Türkçe</a> | <strong>🇬🇧 English</strong>
 </p>
 
 # 🇬🇧 English Version
